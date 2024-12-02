@@ -1,0 +1,15 @@
+/* Basic CSS for landing page */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .recipe-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  form input, form textarea, form button {
+    display: block;
+    margin-top: 10px;
+  }  

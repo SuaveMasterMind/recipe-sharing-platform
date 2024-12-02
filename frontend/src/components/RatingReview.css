@@ -1,0 +1,9 @@
+.rating-container {
+    margin-top: 10px;
+  }
+  
+  select {
+    font-size: 16px;
+    padding: 5px;
+    margin: 5px 0;
+  }  
