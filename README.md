@@ -10,6 +10,27 @@ The Recipe Sharing Platform is a web application where users can share, discover
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 
+## Features
+1. **User Authentication:**
+   - Secure registration and login using JWT.
+   - Role-based access for admin and users.
+
+2. **Recipe Management:**
+   - Create, read, update, and delete recipes.
+   - Add ratings and reviews.
+
+3. **Advanced Features:**
+   - Admin dashboard for managing users and recipes.
+   - User-friendly UI with responsive design.
+   - Secure backend with robust middleware.
+
+4. **UI/UX Enhancements:**
+   - Clean, modern interface.
+   - Interactive components like recipe cards and ratings
+
+## Folder Structure
+recipe-sharing-platform/ │ ├── backend/ │ ├── models/ │ │ ├── Recipe.js │ │ └── User.js │ ├── routes/ │ │ ├── recipes.js │ │ └── users.js │ ├── middleware/ │ │ └── auth.js │ ├── server.js │ └── .env │ ├── frontend/ │ ├── src/ │ │ ├── components/ │ │ │ ├── RecipeCard.js │ │ │ ├── RatingReview.js │ │ │ ├── RecipeCard.css │ │ │ └── RatingReview.css │ │ ├── pages/ │ │ │ ├── LandingPage.js │ │ │ ├── LoginPage.js │ │ │ ├── SignupPage.js │ │ │ ├── AdminDashboard.js │ │ │ ├── LandingPage.css │ │ │ ├── LoginPage.css │ │ │ ├── SignupPage.css │ │ │ └── AdminDashboard.css │ │ ├── utils/ │ │ │ └── api.js │ │ └── App.js │ ├── public/ │ │ ├── images/ │ │ │ └── placeholder.txt │ │ └── index.html │ └── .env
+
 ## Setup Instructions
 
 ### Prerequisites
